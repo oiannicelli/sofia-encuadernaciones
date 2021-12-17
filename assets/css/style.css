@@ -1,0 +1,5 @@
+.fondo {
+    background-image: url("./assets/images/fondo-index.jpg");
+    background-repeat: inherit;
+    background-color: red;
+}
