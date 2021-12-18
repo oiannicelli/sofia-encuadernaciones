@@ -106,3 +106,14 @@ a {
 
 /*///////////////////////////////////////////*/
 
+
+
+
+
+
+/* logo animado para index */
+@media only screen and (max-width:320px) {
+    .gif {
+        position: relative;
+    }
+}
