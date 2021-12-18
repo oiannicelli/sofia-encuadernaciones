@@ -2,20 +2,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap');
 
-
-/*///////////////////////////////////////////*
-
 /*reseteo de CSS*/
 * {
     margin: 0;
     padding: 0;
 }
 
-/*///////////////////////////////////////////*
+/*///////////////////////////////////////////
+* INDEX
+///////////////////////////////////////////*/
 
 /* imagen de fono para index */
 .fondo {
     background-image: url(/assets/images/fondo-index.jpg);
+    position: relative;
 }
 
 /*///////////////////////////////////////////*
@@ -40,7 +40,12 @@
     display: inline;
 }
 
-/*///////////////////////////////////////////*
+/* logo animado para index */
+.gif {
+    position: absolute;
+}
+
+/*///////////////////////////////////////////*/
 
 /* Fonts para index - Generales */
 .font-index {
@@ -53,33 +58,45 @@
     padding-top: 5px;
 }
 
-/*///////////////////////////////////////////*
+/*///////////////////////////////////////////
+* FOOTER
+///////////////////////////////////////////*/
 
-/* Footer */
 .footer {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 60px;
+    padding: 50px;
     background: #F4E9E9;
-    position: static;
-    width: 1486px;
-    height: 100px;
-    left: 0px;
-    top: 701.5px;
+    align-content: center;
 }
 
+/*///////////////////////////////////////////*/
+
 .footer-font {
-    position: static;
-    width: 369px;
-    height: 22px;
-    left: 0px;
-    top: 17.33px;
     font-family: 'Inter', sans-serif;
     font-weight: 500;
     font-size: 12px;
-    line-height: 22px;
-    display: flex;
     color: #293845;
+    align-content: center;
 }
+
+/*///////////////////////////////////////////*/
+
+/* iconos con hover para footer */
+.footer-icons {
+    position: relative;
+    display: inline-block;
+}
+    
+.footer-icons .footer-icons-top {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+    
+.footer-icons:hover .footer-icons-top {
+    display: inline;
+}
+
+/*///////////////////////////////////////////*/
+
