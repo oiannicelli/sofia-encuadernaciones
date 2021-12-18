@@ -8,6 +8,10 @@
     padding: 0;
 }
 
+a {
+    text-decoration: none !important;        
+}
+
 /*///////////////////////////////////////////
 * INDEX
 ///////////////////////////////////////////*/
@@ -85,6 +89,7 @@
 .footer-icons {
     position: relative;
     display: inline-block;
+    padding: 0px 20px 0px 0px;
 }
     
 .footer-icons .footer-icons-top {
