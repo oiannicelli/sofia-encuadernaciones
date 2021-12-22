@@ -1,0 +1,162 @@
+/* @import "components/general";
+@import "components/contacto";
+@import "components/faqs";
+@import "components/index";
+@import "components/productos";
+@import "components/sobre-mi"
+ */
+
+
+ /* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap');
+
+/*reseteo de CSS*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;        
+}
+
+/*///////////////////////////////////////////
+* INDEX
+///////////////////////////////////////////*/
+
+/* imagen de fono para index */
+.fondo {
+    background-image: url(../../assets/images/fondo-index.jpg);
+    background-repeat: no-repeat;
+    background-position:center ;
+    background-size: cover ;
+}
+
+/*///////////////////////////////////////////*
+
+/* iconos con hover para index */
+.link {
+    width: 5em;
+    height: 5em;
+    position: relative;
+    display: inline-block;
+}
+    
+.link .img-top {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+    
+.link:hover .img-top {
+    display: inline;
+}
+
+/* logo animado para index */
+.gif {
+    position: absolute;
+}
+
+/*///////////////////////////////////////////*/
+
+/* Fonts para index - Generales */
+.font-index {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    color: #A06980;
+    padding-top: 5px;
+}
+
+
+
+
+
+
+
+
+
+/*///////////////////////////////////////////
+* FOOTER
+///////////////////////////////////////////*/
+.footer{
+    background-color: #F4E9E9;
+    padding: 1rem 0;
+    position: fixed;
+    bottom: 0;
+}
+
+.footer2{
+    background-color: #F4E9E9;
+    padding: 1rem;
+    bottom: 0;
+   
+}
+
+.logoFooter{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footercito{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+/*///////////////////////////////////////////*/
+
+.footer-font {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    color: #293845;
+    align-content: center;
+}
+
+/*///////////////////////////////////////////*/
+    
+
+
+/*///////////////////////////////////////////*/
+
+
+
+/* logo animado para index */
+/* @media only screen and (max-width:320px) {
+    .gif {
+        position: relative;
+    }
+}
+ */
+
+ 
+@media only screen and (max-width: 577px){
+    .logoFooter{
+        order: 1;
+        margin-bottom: 1rem;
+    }
+    .pFooter{
+        order: 2;
+        margin-bottom: 1rem;
+    }
+}
+
+.banner{
+    background-image: url(../assets/images/Cuaderno1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 35rem;
+    width: 100%;
+}

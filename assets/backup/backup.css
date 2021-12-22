@@ -65,6 +65,14 @@ a {
     padding-top: 5px;
 }
 
+
+
+
+
+
+
+
+
 /*///////////////////////////////////////////
 * FOOTER
 ///////////////////////////////////////////*/
@@ -73,8 +81,13 @@ a {
     padding: 1rem 0;
     position: fixed;
     bottom: 0;
-    
+}
 
+.footer2{
+    background-color: #F4E9E9;
+    padding: 1rem;
+    bottom: 0;
+   
 }
 
 .logoFooter{
@@ -128,4 +141,12 @@ a {
         order: 2;
         margin-bottom: 1rem;
     }
+}
+.banner{
+    background-image: url(../images/Cuaderno1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 35rem;
+    width: 100%;
 }
