@@ -1,6 +1,7 @@
 /* FONTS */
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap");
+
 /*reseteo de CSS*/
 * {
   margin: 0;
@@ -12,9 +13,12 @@ a {
   text-decoration: none;
 }
 
+
+
 /*///////////////////////////////////////////
 * FOOTER
 ///////////////////////////////////////////*/
+
 .footer {
   background-color: #F4E9E9;
   padding: 1rem 0;
@@ -51,6 +55,11 @@ a {
   align-content: center;
 }
 
+
+/*///////////////////////////////////////////
+* 577 screen
+///////////////////////////////////////////*/
+
 @media only screen and (max-width: 577px) {
   .logoFooter {
     order: 1;
@@ -62,18 +71,40 @@ a {
     margin-bottom: 1rem;
   }
 }
-/* imagen de fono para index */
+
+/* imagen de fondo para index */
 .fondo {
-  background-image: url(../assets/images/fondo-index.jpg);
-  background-repeat: no-repeat;
+  background-image: url(../assets/images/fondo-index-2.png);
+  background-repeat: repeat;
   background-position: center;
   background-size: cover;
 }
 
+/* circulo blanco de fondo para index */
+.circulo {
+  width: 50px;
+  height: 50px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background: #ffffff;
+}
+
+/* logo animado para index */
+.gif {
+  background-image: url(../assets/images/circulo-blanco-index.svg);
+  background-size: 35em;
+  background-repeat: no-repeat;
+  
+  background-position: center;
+  position: absolute;
+  padding: 8em 0em 0em 2em;
+}
+
 /* iconos con hover para index */
 .link {
-  width: 5em;
-  height: 5em;
+  width: 4.5em;
+  height: 4.5em;
   position: relative;
   display: inline-block;
 }
@@ -90,9 +121,12 @@ a {
   display: inline;
 }
 
-/* logo animado para index */
-.gif {
-  position: absolute;
+/* padding para iconos del nav */
+.link-nav-left {
+  padding: 0em 0em 5em 3em;
+}
+.link-nav-right {
+  padding: 0px 3px 5px 0px;
 }
 
 /* Fonts para index - Generales */
@@ -106,8 +140,60 @@ a {
   padding-top: 5px;
 }
 
+
+
+/*///////////////////////////////////////////
+* 320 screen
+///////////////////////////////////////////*/
+
+@media only screen and (max-width: 320px) {
+
+/* logo animado para index */
+.gif {
+  position: absolute;
+  padding-top: 3em;
+}
+
+  /* iconos con hover para index */
+  .link {
+    width: 3.5em;
+    height: 3.5em;
+    position: relative;
+    display: inline-block;
+  }
+  
+  .link .img-top {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+  }
+  
+  .link:hover .img-top {
+    display: inline;
+  }
+  
+  /* Fonts para index - Generales */
+  .font-index {
+    font-family: "Nunito", sans-serif;
+    font-weight: 700;
+    font-size: 8px;
+    line-height: 30px;
+    text-align: center;
+    color: #A06980;
+    padding-top: 5px;
+  }
+
+
+
+
+/*///////////////////////////////////////////
+* SOBRE MI
+///////////////////////////////////////////*/
+
 .banner {
-  background-image: url(../../assets/images/Cuaderno1.jpg);
+  background-image: url(../assets/images/pictures/Cuaderno1.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
