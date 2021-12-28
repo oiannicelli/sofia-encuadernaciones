@@ -6,10 +6,11 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 a {
-    text-decoration: none !important;        
+    text-decoration: none;        
 }
 
 /*///////////////////////////////////////////
@@ -18,9 +19,10 @@ a {
 
 /* imagen de fono para index */
 .fondo {
-    background-image: url(/assets/images/fondo-index.jpg);
+    background-image: url(../../assets/images/fondo-index.jpg);
     background-repeat: no-repeat;
-    position: relative;
+    background-position:center ;
+    background-size: cover ;
 }
 
 /*///////////////////////////////////////////*
@@ -63,15 +65,45 @@ a {
     padding-top: 5px;
 }
 
+
+
+
+
+
+
+
+
 /*///////////////////////////////////////////
 * FOOTER
 ///////////////////////////////////////////*/
-
-.footer {
-    padding: 50px;
-    background: #F4E9E9;
-    align-content: center;
+.footer{
+    background-color: #F4E9E9;
+    padding: 1rem 0;
+    position: fixed;
+    bottom: 0;
 }
+
+.footer2{
+    background-color: #F4E9E9;
+    padding: 1rem;
+    bottom: 0;
+   
+}
+
+.logoFooter{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footercito{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
 
 /*///////////////////////////////////////////*/
 
@@ -84,36 +116,37 @@ a {
 }
 
 /*///////////////////////////////////////////*/
+    
 
-/* iconos con hover para footer */
-.footer-icons {
-    position: relative;
-    display: inline-block;
-    padding: 0px 20px 0px 0px;
-}
-    
-.footer-icons .footer-icons-top {
-    display: none;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 99;
-}
-    
-.footer-icons:hover .footer-icons-top {
-    display: inline;
-}
 
 /*///////////////////////////////////////////*/
 
 
 
-
-
-
 /* logo animado para index */
-@media only screen and (max-width:320px) {
+/* @media only screen and (max-width:320px) {
     .gif {
         position: relative;
     }
+}
+ */
+
+ 
+@media only screen and (max-width: 577px){
+    .logoFooter{
+        order: 1;
+        margin-bottom: 1rem;
+    }
+    .pFooter{
+        order: 2;
+        margin-bottom: 1rem;
+    }
+}
+.banner{
+    background-image: url(../images/Cuaderno1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 35rem;
+    width: 100%;
 }

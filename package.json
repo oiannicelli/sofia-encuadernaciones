@@ -1,0 +1,19 @@
+{
+  "name": "sofia-encuadernaciones",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oiannicelli/sofia-encuadernaciones.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oiannicelli/sofia-encuadernaciones/issues"
+  },
+  "homepage": "https://github.com/oiannicelli/sofia-encuadernaciones#readme"
+}
