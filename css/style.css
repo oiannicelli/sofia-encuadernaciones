@@ -13,7 +13,15 @@ a {
   text-decoration: none;
 }
 
+/* para dar espacio a los iconos y gif del INDEX*/
+.main-index {
+  padding: 5em 0em 5em 0em;
+}
 
+/* para dar espacio a los iconos en el NAV*/
+.nav-item {
+  padding: 0px 30px 20px 0px;
+}
 
 /*///////////////////////////////////////////
 * FOOTER
@@ -80,60 +88,62 @@ a {
   background-size: cover;
 }
 
-/* circulo blanco de fondo para index */
-.circulo {
-  width: 50px;
-  height: 50px;
-  -moz-border-radius: 50%;
-  -webkit-border-radius: 50%;
-  border-radius: 50%;
-  background: #ffffff;
-}
-
-/* logo animado para index */
+/* logo animado para index con circulo blanco*/
 .gif {
   background-image: url(../assets/images/circulo-blanco-index.svg);
-  background-size: 35em;
   background-repeat: no-repeat;
-  
-  background-position: center;
+  background-position: top;
+  background-position-x: 26.5em;
+  background-position-y: 0.5em;
+  background-size: 35em;
   position: absolute;
-  padding: 8em 0em 0em 2em;
+  padding: 12em 0em 10em 2em;
 }
 
-/* iconos con hover para index */
-.link {
-  width: 4.5em;
-  height: 4.5em;
+/* iconos con hover para INDEX */
+.link-index {
+  width: 4em;
+  height: 4em;
   position: relative;
   display: inline-block;
 }
-
-.link .img-top {
+.link-index .img-index-top {
   display: none;
   position: absolute;
   top: 0;
   left: 0;
   z-index: 99;
 }
-
-.link:hover .img-top {
+.link-index:hover .img-index-top {
   display: inline;
 }
 
-/* padding para iconos del nav */
-.link-nav-left {
-  padding: 0em 0em 5em 3em;
+/* iconos con hover para NAVBAR */
+.link-nav {
+  width: 4.5em;
+  height: 4.5em;
+  position: relative;
+  display: inline-block;
+  
 }
-.link-nav-right {
-  padding: 0px 3px 5px 0px;
+.link-nav .img-nav-top {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  
 }
+.link-nav:hover .img-nav-top {
+  display: inline;
+}
+
 
 /* Fonts para index - Generales */
 .font-index {
   font-family: "Nunito", sans-serif;
   font-weight: 700;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 30px;
   text-align: center;
   color: #A06980;
@@ -154,28 +164,26 @@ a {
   padding-top: 3em;
 }
 
-  /* iconos con hover para index */
-  .link {
-    width: 3.5em;
-    height: 3.5em;
+/* iconos con hover para INDEX*/
+.link-index {
+    width: 8em;
+    height: 8em;
     position: relative;
     display: inline-block;
-  }
-  
-  .link .img-top {
+}
+.link-index .img-index-top {
     display: none;
     position: absolute;
     top: 0;
     left: 0;
-    z-index: 99;
-  }
-  
-  .link:hover .img-top {
+    z-index: 99;s
+}
+.link-index:hover .img-index-top {
     display: inline;
-  }
+}
   
-  /* Fonts para index - Generales */
-  .font-index {
+/* Fonts para index - Generales */
+.font-index {
     font-family: "Nunito", sans-serif;
     font-weight: 700;
     font-size: 8px;
@@ -183,8 +191,33 @@ a {
     text-align: center;
     color: #A06980;
     padding-top: 5px;
-  }
+}
 
+/* NAVBAR*/
+.nav-mobile {
+  padding-top: 30px;
+}
+.nav-item {
+  padding: 30px 0px 30px 0px;
+}
+
+/* iconos con hover para NAVBAR */
+.link-nav {
+  width: 3.5em;
+  height: 3.5em;
+  position: relative;
+  display: inline-block;
+}
+.link-nav .img-nav-top {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+.link-nav:hover .img-nav-top {
+  display: inline;
+}
 
 
 
