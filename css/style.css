@@ -36,7 +36,7 @@ a {
 /* imagen de fondo para index */
 .fondo {
   background-image: url(../assets/images/fondo-index-2.png);
-  background-repeat: repeat;
+  background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
