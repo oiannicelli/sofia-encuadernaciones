@@ -15,7 +15,7 @@ a {
 
 /* para dar espacio a los iconos y gif del INDEX*/
 .main-index {
-  padding: 5em 0em 5em 0em;
+  padding: 5em;
 }
 
 /* para dar espacio a los iconos en el NAV*/
@@ -93,11 +93,11 @@ a {
   background-image: url(../assets/images/circulo-blanco-index.svg);
   background-repeat: no-repeat;
   background-position: top;
-  background-position-x: 26.5em;
-  background-position-y: 0.5em;
-  background-size: 35em;
+  background-position-x: 28.5em;
+  background-position-y: 1.5em;
+  background-size: 30em;
   position: absolute;
-  padding: 12em 0em 10em 2em;
+  padding: 10em 0em 10em 2em;
 }
 
 /* iconos con hover para INDEX */
@@ -106,6 +106,7 @@ a {
   height: 4em;
   position: relative;
   display: inline-block;
+  padding: 3em 0em 5em 0em;
 }
 .link-index .img-index-top {
   display: none;
@@ -124,7 +125,6 @@ a {
   height: 4.5em;
   position: relative;
   display: inline-block;
-  
 }
 .link-nav .img-nav-top {
   display: none;
@@ -132,7 +132,6 @@ a {
   top: 0;
   left: 0;
   z-index: 99;
-  
 }
 .link-nav:hover .img-nav-top {
   display: inline;
@@ -153,15 +152,15 @@ a {
 
 
 /*///////////////////////////////////////////
-* 320 screen
+* 375 screen
 ///////////////////////////////////////////*/
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 375px) {
 
 /* logo animado para index */
 .gif {
   position: absolute;
-  padding-top: 3em;
+  padding: 2em 0em 12em 2em;
 }
 
 /* iconos con hover para INDEX*/
@@ -172,11 +171,11 @@ a {
     display: inline-block;
 }
 .link-index .img-index-top {
-    display: none;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 99;s
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;s
 }
 .link-index:hover .img-index-top {
     display: inline;
@@ -206,17 +205,18 @@ a {
   width: 3.5em;
   height: 3.5em;
   position: relative;
-  display: inline-block;
+  position: relative;
 }
 .link-nav .img-nav-top {
   display: none;
   position: absolute;
   top: 0;
   left: 0;
-  z-index: 99;
+  z-index: 99;s
 }
 .link-nav:hover .img-nav-top {
-  display: inline;
+  display: block;
+  position: absolute;
 }
 
 
