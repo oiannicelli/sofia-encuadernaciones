@@ -77,6 +77,11 @@ a {
 * NAV BAR
 ///////////////////////////////////////////*/
 
+.navBarBg{
+  background-color: #F4E9E9;
+}
+
+
 /* para dar espacio a los iconos en el NAV*/
 .nav-item {
   padding: 0px 30px 20px 0px;
@@ -96,6 +101,7 @@ a {
   left: 0;
   z-index: 99;
 }
+
 .link-nav:hover .img-nav-top {
   display: inline;
 }
@@ -180,8 +186,30 @@ a {
   line-height: 15px;
 }
 
-/*# sourceMappingURL=style.css.map */
+.font-titulos{
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+}
 
+
+
+/*///////////////////////////////////////////
+* FAQS
+///////////////////////////////////////////*/
+.botonFaqs{
+  background-color: #A06980; 
+  color: white;
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  border-radius: 10px;
+  border: 0px ;
+  padding: 8px;
+}
+
+
+hr{
+  border: 1px solid rgb(0, 0, 0);
+}
 
 /*///////////////////////////////////////////
 * SECCION PRODUCTOS
@@ -241,7 +269,7 @@ a {
 * 375 screen
 ///////////////////////////////////////////*/
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 450px) {
 
   main {
     margin-bottom: 12em;
@@ -276,8 +304,10 @@ a {
   
   .main-index {
     padding-top: 14em;
-  }
-    
+  }  
+
+}
+
   /* Fonts para index - Generales */
   .font-index {
       font-family: "Nunito", sans-serif;
@@ -310,15 +340,15 @@ a {
       position: absolute;
       top: 0;
       left: 0;
-      z-index: 99;s
+      z-index: 99;
   }
 
-  .link-nav :hover .img-nav-top {
+  .link-nav .img-nav-top:hover  {
       display: block;
       position: absolute;
   }
 
-}
+
 
 
 /*///////////////////////////////////////////
