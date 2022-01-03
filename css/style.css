@@ -109,12 +109,16 @@ a {
   background-color: #F4E9E9;
   padding: 1rem 0;
   bottom: 0;
+  position: fixed;
+
 }
 
 .footer2 {
   background-color: #F4E9E9;
   padding: 1rem;
   bottom: 0;
+  font-family: "Nunito", sans-serif;
+
 }
 
 .logoFooter {
@@ -156,6 +160,24 @@ a {
   background-repeat: no-repeat;
   height: 35rem;
   width: 100%;
+}
+
+.bgrere{
+  background-image: url(../assets/images/sobreMi/fondoSobreMi.png);
+}
+
+.fondoSobreMi{
+  background-color: #f8f8f8;
+}
+
+.colorDirtyPurple{
+  color: #A06980;
+}
+
+
+.font-texto {
+  font-family: "Nunito", sans-serif;
+  line-height: 15px;
 }
 
 /*# sourceMappingURL=style.css.map */
@@ -239,14 +261,16 @@ a {
       position: relative;
       display: inline-block;
   }
+
   .link-index .img-index-top {
     display: none;
     position: absolute;
     top: 0;
     left: 0;
-    z-index: 99;s
+    z-index: 99;
   }
-  .link-index:hover .img-index-top {
+
+  .link-index :hover .img-index-top {
       display: inline;
   }
   
@@ -265,8 +289,6 @@ a {
       padding-top: 5px;
   }
   
-  
-  
   /* NAVBAR*/
   .nav-mobile {
     padding-top: 30px;
@@ -277,23 +299,27 @@ a {
   
   /* iconos con hover para NAVBAR */
   .link-nav {
-    width: 3.5em;
-    height: 3.5em;
-    position: relative;
-    position: relative;
+      width: 3.5em;
+      height: 3.5em;
+      position: relative;
+      position: relative;
   }
+
   .link-nav .img-nav-top {
-    display: none;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 99;s
+      display: none;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 99;s
   }
-  .link-nav:hover .img-nav-top {
-    display: block;
-    position: absolute;
+
+  .link-nav :hover .img-nav-top {
+      display: block;
+      position: absolute;
   }
-  
+
+}
+
 
 /*///////////////////////////////////////////
 * 577 screen
@@ -301,15 +327,14 @@ a {
 
 @media only screen and (max-width: 577px) {
 
+  .logoFooter {
+    order: 1;
+    margin-bottom: 1rem;
+  }
 
-.logoFooter {
-  order: 1;
-  margin-bottom: 1rem;
-}
-
-.pFooter {
-  order: 2;
-  margin-bottom: 1rem;
-}
+  .pFooter {
+    order: 2;
+    margin-bottom: 1rem;
+  }
 
 }
