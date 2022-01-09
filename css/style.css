@@ -125,7 +125,7 @@ a {
 }
 
 .link-footer {
-  width: 2em;
+  width: 4em;
 }
 
 .footercito {
@@ -146,7 +146,7 @@ a {
 
 
 /*///////////////////////////////////////////
-* SOBRE MI
+* SECCION SOBRE MI
 ///////////////////////////////////////////*/
 
 .banner {
@@ -206,6 +206,24 @@ a {
   color: #A06980;
 }
 
+.btn-2 {
+  background-color: #A06980;
+  color: white;
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  border-radius: 10px;
+  background-image: url(../assets/images/whatsapp.svg);
+  background-position-x: 1em;
+  background-repeat: no-repeat;
+  padding: 0.5em 2em 0.5em 4em;
+  position: relative;
+}
+
+.btn-2:hover{
+  background-color: #EEE3DF;
+  color: #A06980;
+}
+
 .titulo-secciones {
   color: #A06980;
   font-family: "Nunito", sans-serif;
@@ -213,7 +231,28 @@ a {
   padding-top: 1em;
 }
 
+/*///////////////////////////////////////////
+* SECCION CONTACTO
+///////////////////////////////////////////*/
 
+.producto-font-pink2 {
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
+  color: #A06980;
+  font-size: 20px;
+}
+
+.link-contacto {
+  width: 4.5em;
+}
+
+.redes-font {
+  color: #293845;
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  float: left;
+}
 
 /*///////////////////////////////////////////
 * 375 screen
