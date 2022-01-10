@@ -77,6 +77,11 @@ a {
 * NAV BAR
 ///////////////////////////////////////////*/
 
+.navBarBg{
+  background-color: #F4E9E9;
+}
+
+
 /* para dar espacio a los iconos en el NAV*/
 .nav-item {
   padding: 0px 30px 20px 0px;
@@ -96,6 +101,7 @@ a {
   left: 0;
   z-index: 99;
 }
+
 .link-nav:hover .img-nav-top {
   display: inline;
 }
@@ -109,12 +115,16 @@ a {
   background-color: #F4E9E9;
   padding: 1rem 0;
   bottom: 0;
+  position: fixed;
+
 }
 
 .footer2 {
   background-color: #F4E9E9;
   padding: 1rem;
   bottom: 0;
+  font-family: "Nunito", sans-serif;
+
 }
 
 .logoFooter {
@@ -125,7 +135,7 @@ a {
 }
 
 .link-footer {
-  width: 4em;
+  width: 2em;
 }
 
 .footercito {
@@ -146,7 +156,7 @@ a {
 
 
 /*///////////////////////////////////////////
-* SECCION SOBRE MI
+* SOBRE MI
 ///////////////////////////////////////////*/
 
 .banner {
@@ -158,8 +168,48 @@ a {
   width: 100%;
 }
 
-/*# sourceMappingURL=style.css.map */
+.bgrere{
+  background-image: url(../assets/images/sobreMi/fondoSobreMi.png);
+}
 
+.fondoSobreMi{
+  background-color: #f8f8f8;
+}
+
+.colorDirtyPurple{
+  color: #A06980;
+}
+
+
+.font-texto {
+  font-family: "Nunito", sans-serif;
+  line-height: 15px;
+}
+
+.font-titulos{
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+}
+
+
+
+/*///////////////////////////////////////////
+* FAQS
+///////////////////////////////////////////*/
+.botonFaqs{
+  background-color: #A06980; 
+  color: white;
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  border-radius: 10px;
+  border: 0px ;
+  padding: 8px;
+}
+
+
+hr{
+  border: 1px solid rgb(0, 0, 0);
+}
 
 /*///////////////////////////////////////////
 * SECCION PRODUCTOS
@@ -208,26 +258,6 @@ a {
 }
 
 
-/* BOTON con icono whatsapp*/
-.btn-2 a{  
-  background-color: #A06980;
-  color: white;
-  font-family: "Nunito", sans-serif;
-  font-weight: 600;
-  border-radius: 10px;
-  background-image: url(../assets/images/whatsapp.svg);
-  background-position-x: 1em;
-  background-repeat: no-repeat;
-  padding: 0.5em 2em 0.5em 4em;
-  position: relative;
-}
-
-.btn-2 a:hover{
-  background-color: #EEE3DF;
-  color: #A06980;
-}
-
-
 /* BOTON con icono smile*/
 .btn-3 a{
   background-color: #A06980;
@@ -247,13 +277,13 @@ a {
   color: #A06980;
 }
 
-
 .titulo-secciones {
   color: #A06980;
   font-family: "Nunito", sans-serif;
   font-weight: 600;
   padding-top: 1em;
 }
+
 
 /*///////////////////////////////////////////
 * SECCION CONTACTO
@@ -278,11 +308,31 @@ a {
   float: left;
 }
 
+/* BOTON con icono formulario*/
+.btn-2 a{  
+  background-color: #A06980;
+  color: white;
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  border-radius: 10px;
+  background-image: url(../assets/images/chat-text.svg);
+  background-position-x: 1em;
+  background-repeat: no-repeat;
+  padding: 0.5em 2em 0.5em 4em;
+  position: relative;
+}
+
+.btn-2 a:hover{
+  background-color: #EEE3DF;
+  color: #A06980;
+}
+
+
 /*///////////////////////////////////////////
 * 375 screen
 ///////////////////////////////////////////*/
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 450px) {
 
   main {
     margin-bottom: 12em;
@@ -302,21 +352,25 @@ a {
       position: relative;
       display: inline-block;
   }
+
   .link-index .img-index-top {
     display: none;
     position: absolute;
     top: 0;
     left: 0;
-    z-index: 99;s
+    z-index: 99;
   }
-  .link-index:hover .img-index-top {
+
+  .link-index :hover .img-index-top {
       display: inline;
   }
   
   .main-index {
     padding-top: 14em;
-  }
-    
+  }  
+
+}
+
   /* Fonts para index - Generales */
   .font-index {
       font-family: "Nunito", sans-serif;
@@ -328,8 +382,6 @@ a {
       padding-top: 5px;
   }
   
-  
-  
   /* NAVBAR*/
   .nav-mobile {
     padding-top: 30px;
@@ -340,23 +392,27 @@ a {
   
   /* iconos con hover para NAVBAR */
   .link-nav {
-    width: 3.5em;
-    height: 3.5em;
-    position: relative;
-    position: relative;
+      width: 3.5em;
+      height: 3.5em;
+      position: relative;
+      position: relative;
   }
+
   .link-nav .img-nav-top {
-    display: none;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 99;s
+      display: none;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 99;
   }
-  .link-nav:hover .img-nav-top {
-    display: block;
-    position: absolute;
+
+  .link-nav .img-nav-top:hover  {
+      display: block;
+      position: absolute;
   }
-  
+
+
+
 
 /*///////////////////////////////////////////
 * 577 screen
@@ -364,15 +420,20 @@ a {
 
 @media only screen and (max-width: 577px) {
 
+  .logoFooter {
+    order: 1;
+    margin-bottom: 1rem;
+  }
 
-.logoFooter {
-  order: 1;
-  margin-bottom: 1rem;
+  .pFooter {
+    order: 2;
+    margin-bottom: 1rem;
+  }
+
 }
 
-.pFooter {
-  order: 2;
-  margin-bottom: 1rem;
-}
 
-}
+
+
+
+
