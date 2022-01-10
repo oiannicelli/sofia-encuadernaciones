@@ -188,7 +188,8 @@ a {
   color: #293845;
 }
 
-.btn {
+/* BOTON con icono libro*/
+.btn-1 a{
   background-color: #A06980;
   color: white;
   font-family: "Nunito", sans-serif;
@@ -201,12 +202,14 @@ a {
   position: relative;
 }
 
-.btn:hover {
+.btn-1 a:hover {
   background-color: #EEE3DF;
   color: #A06980;
 }
 
-.btn-2 {
+
+/* BOTON con icono whatsapp*/
+.btn-2 a{  
   background-color: #A06980;
   color: white;
   font-family: "Nunito", sans-serif;
@@ -219,10 +222,31 @@ a {
   position: relative;
 }
 
-.btn-2:hover{
+.btn-2 a:hover{
   background-color: #EEE3DF;
   color: #A06980;
 }
+
+
+/* BOTON con icono smile*/
+.btn-3 a{
+  background-color: #A06980;
+  color: white;
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  border-radius: 10px;
+  background-image: url(../assets/images/emoji-smile.svg);
+  background-position-x: 1em;
+  background-repeat: no-repeat;
+  padding: 0.5em 2em 0.5em 4em;
+  position: relative;
+}
+
+.btn-3 a:hover {
+  background-color: #EEE3DF;
+  color: #A06980;
+}
+
 
 .titulo-secciones {
   color: #A06980;
