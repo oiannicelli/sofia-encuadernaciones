@@ -346,6 +346,31 @@ hr{
 }
 
 
+
+/*///////////////////////////////////////////
+* SECCION FAQS
+///////////////////////////////////////////*/
+
+/* BOTON con icono tienda*/
+.btn-4 a{  
+  background-color: #A06980;
+  color: white;
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  border-radius: 10px;
+  background-image: url(../assets/images/shop-window.svg);
+  background-position-x: 1em;
+  background-repeat: no-repeat;
+  padding: 0.5em 2em 0.5em 4em;
+  position: relative;
+}
+
+.btn-4 a:hover{
+  background-color: #EEE3DF;
+  color: #A06980;
+}
+
+
 /*///////////////////////////////////////////
 * 375 screen
 ///////////////////////////////////////////*/
