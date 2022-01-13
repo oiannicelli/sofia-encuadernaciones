@@ -160,7 +160,7 @@ a {
 ///////////////////////////////////////////*/
 
 .banner {
-  background-image: url(../assets/images/pictures/Cuaderno1.jpg);
+  background-image: url(../assets/images/pictures/SobreMi5.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -169,11 +169,12 @@ a {
 }
 
 .bgrere{
-  background-image: url(../assets/images/sobreMi/fondoSobreMi.png);
+  background-image: url(../assets/images/pictures/fondoSobreMi.png);
 }
 
 .fondoSobreMi{
   background-color: #f8f8f8;
+  padding-bottom: 5rem;
 }
 
 .colorDirtyPurple{
@@ -191,43 +192,6 @@ a {
   font-weight: 600;
 }
 
-
-
-/*///////////////////////////////////////////
-* FAQS
-///////////////////////////////////////////*/
-.botonFaqs{
-  background-color: #A06980; 
-  color: white;
-  font-family: "Nunito", sans-serif;
-  font-weight: 600;
-  border-radius: 10px;
-  border: 0px ;
-  padding: 8px;
-}
-
-
-hr{
-  border: 1px solid rgb(0, 0, 0);
-}
-
-/*///////////////////////////////////////////
-* FAQS
-///////////////////////////////////////////*/
-.botonFaqs{
-  background-color: #A06980; 
-  color: white;
-  font-family: "Nunito", sans-serif;
-  font-weight: 600;
-  border-radius: 10px;
-  border: 0px ;
-  padding: 8px;
-}
-
-
-hr{
-  border: 1px solid rgb(0, 0, 0);
-}
 
 /*///////////////////////////////////////////
 * SECCION PRODUCTOS
@@ -370,6 +334,33 @@ hr{
   color: #A06980;
 }
 
+.botonFaqs{
+  background-color: #A06980; 
+  color: white;
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  border-radius: 10px;
+  border: 0px ;
+  padding: 8px;
+}
+
+hr{
+  border: 1px solid rgb(0, 0, 0);
+}
+
+.botonFaqs{
+  background-color: #A06980; 
+  color: white;
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  border-radius: 10px;
+  border: 0px ;
+  padding: 8px;
+}
+
+hr{
+  border: 1px solid rgb(0, 0, 0);
+}
 
 /*///////////////////////////////////////////
 * 375 screen
