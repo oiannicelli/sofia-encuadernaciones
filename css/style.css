@@ -363,10 +363,10 @@ hr{
 
 
 /*///////////////////////////////////////////
-* 320 screen
+* 360 screen
 ///////////////////////////////////////////*/
 
-@media only screen and (max-width: 320px){
+@media only screen and (min-width: 360px){
 
   main {
     margin-bottom: 12em;
