@@ -407,7 +407,7 @@ hr{
   .font-index {
       font-family: "Nunito", sans-serif;
       font-weight: 700;
-      font-size: 10px;
+      font-size: 8px;
       line-height: 30px;
       text-align: center;
       color: #A06980;
@@ -424,8 +424,8 @@ hr{
   
   /* iconos con hover para NAVBAR */
   .link-nav {
-      width: 2.25em;
-      height: 2.25em;
+      width: 2.75em;
+      height: 2.75em;
   }
 
   .footer {
