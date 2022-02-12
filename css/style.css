@@ -116,7 +116,6 @@ a {
   padding: 1rem 0;
   bottom: 0;
   position: fixed;
-
 }
 
 .footer2 {
@@ -124,7 +123,6 @@ a {
   padding: 1rem;
   bottom: 0;
   font-family: "Nunito", sans-serif;
-
 }
 
 .logoFooter {
@@ -362,16 +360,19 @@ hr{
   border: 1px solid rgb(0, 0, 0);
 }
 
+
+
 /*///////////////////////////////////////////
-* 375 screen
+* 320 screen
 ///////////////////////////////////////////*/
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 320px) {
 
   main {
     margin-bottom: 12em;
   }
   
+
   /* logo animado para index */
   .gif {
     background-image: none;
@@ -403,13 +404,11 @@ hr{
     padding-top: 14em;
   }  
 
-}
-
   /* Fonts para index - Generales */
   .font-index {
       font-family: "Nunito", sans-serif;
       font-weight: 700;
-      font-size: 12px;
+      font-size: 10px;
       line-height: 30px;
       text-align: center;
       color: #A06980;
@@ -426,8 +425,8 @@ hr{
   
   /* iconos con hover para NAVBAR */
   .link-nav {
-      width: 3.5em;
-      height: 3.5em;
+      width: 2.75em;
+      height: 2.75em;
       position: relative;
       position: relative;
   }
@@ -445,8 +444,97 @@ hr{
       position: absolute;
   }
 
+  .pFooter {
+    font-size: 12px;
+  }
+}
 
+/*///////////////////////////////////////////
+* 425 screen
+///////////////////////////////////////////*/
 
+@media only screen and (max-width: 425px) {
+
+  main {
+    margin-bottom: 12em;
+  }
+  
+
+  /* logo animado para index */
+  .gif {
+    background-image: none;
+    position: absolute;
+    padding: 2em 0em 12em 2em;
+  }
+  
+  /* iconos con hover para INDEX*/
+  .link-index {
+      width: 8em;
+      height: 8em;
+      position: relative;
+      display: inline-block;
+  }
+
+  .link-index .img-index-top {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+  }
+
+  .link-index :hover .img-index-top {
+      display: inline;
+  }
+  
+  .main-index {
+    padding-top: 14em;
+  }  
+
+  /* Fonts para index - Generales */
+  .font-index {
+      font-family: "Nunito", sans-serif;
+      font-weight: 700;
+      font-size: 10px;
+      line-height: 30px;
+      text-align: center;
+      color: #A06980;
+      padding-top: 5px;
+  }
+  
+  /* NAVBAR*/
+  .nav-mobile {
+    padding-top: 30px;
+  }
+  .nav-item {
+    padding: 30px 14px 30px 0px;
+  }
+  
+  /* iconos con hover para NAVBAR */
+  .link-nav {
+      width: 4em;
+      height: 4em;
+      position: relative;
+      position: relative;
+  }
+
+  .link-nav .img-nav-top {
+      display: none;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 99;
+  }
+
+  .link-nav .img-nav-top:hover  {
+      display: block;
+      position: absolute;
+  }
+
+  .pFooter {
+    font-size: 12px;
+  }
+}
 
 /*///////////////////////////////////////////
 * 577 screen
@@ -465,9 +553,3 @@ hr{
   }
 
 }
-
-
-
-
-
-
