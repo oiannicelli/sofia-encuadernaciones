@@ -366,13 +366,12 @@ hr{
 * 320 screen
 ///////////////////////////////////////////*/
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 320px){
 
   main {
     margin-bottom: 12em;
   }
   
-
   /* logo animado para index */
   .gif {
     background-image: none;
@@ -425,23 +424,8 @@ hr{
   
   /* iconos con hover para NAVBAR */
   .link-nav {
-      width: 2.75em;
-      height: 2.75em;
-      position: relative;
-      position: relative;
-  }
-
-  .link-nav .img-nav-top {
-      display: none;
-      position: absolute;
-      top: 0;
-      left: 0;
-      z-index: 99;
-  }
-
-  .link-nav .img-nav-top:hover  {
-      display: block;
-      position: absolute;
+      width: 2.25em;
+      height: 2.25em;
   }
 
   .footer {
@@ -454,16 +438,15 @@ hr{
 }
 
 /*///////////////////////////////////////////
-* 425 screen
+* 360 screen
 ///////////////////////////////////////////*/
 
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 360px) {
 
   main {
     margin-bottom: 12em;
   }
   
-
   /* logo animado para index */
   .gif {
     background-image: none;
@@ -505,40 +488,106 @@ hr{
       color: #A06980;
       padding-top: 5px;
   }
-  
-  /* NAVBAR*/
+
+  /* // NAVBAR */
   .nav-mobile {
-    padding-top: 30px;
+    padding-top: 25px;
   }
   .nav-item {
-    padding: 30px 14px 30px 0px;
+    padding: 15px 14px 15px 0px;
   }
+
+  .font-index {
+    font-size: 10px;
+}
   
-  /* iconos con hover para NAVBAR */
+  /*  iconos con hover para NAVBAR */
   .link-nav {
-      width: 4em;
-      height: 4em;
-      position: relative;
-      position: relative;
-  }
-
-  .link-nav .img-nav-top {
-      display: none;
-      position: absolute;
-      top: 0;
-      left: 0;
-      z-index: 99;
-  }
-
-  .link-nav .img-nav-top:hover  {
-      display: block;
-      position: absolute;
+      width: 3em;
+      height: 3em;
   }
 
   .pFooter {
     font-size: 12px;
   }
 }
+
+
+/*///////////////////////////////////////////
+* 375 screen
+///////////////////////////////////////////*/
+
+@media only screen and (max-width: 375px) {
+
+  main {
+    margin-bottom: 12em;
+  }
+  
+  /* logo animado para index */
+  .gif {
+    background-image: none;
+    position: absolute;
+    padding: 2em 0em 12em 2em;
+  }
+  
+  /* iconos con hover para INDEX*/
+  .link-index {
+      width: 8em;
+      height: 8em;
+      position: relative;
+      display: inline-block;
+  }
+
+  .link-index .img-index-top {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+  }
+
+  .link-index :hover .img-index-top {
+      display: inline;
+  }
+  
+  .main-index {
+    padding-top: 14em;
+  }  
+
+  /* Fonts para index - Generales */
+  .font-index {
+      font-family: "Nunito", sans-serif;
+      font-weight: 700;
+      font-size: 10px;
+      line-height: 30px;
+      text-align: center;
+      color: #A06980;
+      padding-top: 5px;
+  }
+
+  /* // NAVBAR */
+  .nav-mobile {
+    padding-top: 25px;
+  }
+  .nav-item {
+    padding: 15px 14px 15px 0px;
+  }
+
+  .font-index {
+    font-size: 10px;
+}
+  
+  /*  iconos con hover para NAVBAR */
+  .link-nav {
+      width: 3.25em;
+      height: 3.25em;
+  }
+
+  .pFooter {
+    font-size: 12px;
+  }
+
+
 
 /*///////////////////////////////////////////
 * 577 screen
